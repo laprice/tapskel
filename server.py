@@ -29,6 +29,7 @@ if __name__=='__main__':
         debug=True,
         template_path=os.path.join(os.getcwd(),'templates'),
         log_function=better_logging)
+    
     options.parse_command_line()
     app.listen(1337)
     ioloop.IOLoop.instance().start()
