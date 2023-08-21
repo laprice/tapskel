@@ -1,2 +1,2 @@
-tornado==6.3.2
+tornado==6.3.3
 momoko==0.5.0
